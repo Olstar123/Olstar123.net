@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(20, 20, 20);
+    font-family: Poppins;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+    overflow: hidden;
+    height: 100vh;
+    }
+
+.topnav {
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    border-radius: 10px;
+    }
+  
+.topnav a {
+    float: left;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 32px;
+    border-radius: 5px;
+    margin: 5px;
+    }
+    
+.topnav a.active {
+        color: #aaaaaa;
+        background-color: rgba(75, 75, 75, 0.15);
+    }
+
+.topnav a:hover {
+    color: #ffffff;
+    background-color: rgba(75, 75, 75, 0.25);
+    }
+  
+.topnav-title {
+    text-align: right;
+    color: #cccccc;
+    padding-right: 2%;
+    font-size: 16px;
+    }

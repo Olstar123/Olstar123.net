@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: #141414;
     font-family: Poppins;
     color: rgb(255, 255, 255);
     font-size: 24px;
@@ -42,3 +42,24 @@ body {
     padding-right: 2%;
     font-size: 16px;
     }
+
+.buttons button {
+    background-color: #10101080; /* Green background */
+    color: #aaaaaa; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 75%; /* Set a width if needed */
+    left: 50%;
+    height: 200px;
+    border: 3px solid #09090980;
+    position: relative;
+    transform: translate(-50%, 0%);
+    border-radius: 16px;
+    font-size: 32px;
+    transition-duration: 0.4s;
+}
+
+/* Add a background color on hover */
+.buttons button:hover {
+    background-color: #50505050;
+}

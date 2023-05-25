@@ -1,12 +1,14 @@
 <html>
-    <body>
-    
-    <h1 id="splash">Hello World!</h1>
-    
+<body>
+    <h1 id="testText">Hello World!</h1>
+    <h1 id="testText2">gfddfghdgfhdhf</h1>
     <script>
-    var testVar = "other text";
-    document.getElementById("splash").innerHTML = testVar;
+    fetch('https://new.scoresaber.com/api/players?search=cerret')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("testText").innerText = data.players[0].pp;
+        });
     </script>
     
-    </body>
+</body>
 </html> 
